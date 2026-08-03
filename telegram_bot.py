@@ -59,14 +59,6 @@ class AppleStoreChecker:
             'Lavender': {'sku': 'MG6M4HN/A', 'emoji': '🟣'},
             'Sage': {'sku': 'MG6N4HN/A', 'emoji': '🟢'},
             'Mist Blue': {'sku': 'MG8J4HN/A', 'emoji': '🔵'},
-
-        # iPhone 17 pro 512GB Colors with SKUs
-        self.colors = {
-            'Silver': {'sku': 'MG8G4HN/A', 'emoji': '🟣'},
-            'Cosmic Orange': {'sku': 'MG8H4HN/A', 'emoji': '🟢'},
-            'Deep Blue': {'sku': 'MG6L4HN/A', 'emoji': '🔵'},
-            'White': {'sku': 'MG6K4HN/A', 'emoji': '⚪'},
-            'Black': {'sku': 'MG6J4HN/A', 'emoji': '⚫'}
         }
         
         # Store codes
