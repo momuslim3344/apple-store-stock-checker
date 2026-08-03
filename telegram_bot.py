@@ -13,7 +13,7 @@ import re
 # ============================================
 
 # ✅ Environment variable से Token लें (सुरक्षित)
-BOT_TOKEN = os.environ.get('8753779153:AAFDvwJIOOtgjtg4lYQ4DciHQ4rSC1eSzCA')
+BOT_TOKEN = os.environ.get('BOT_TOKEN')
 if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN environment variable not set!")
 
