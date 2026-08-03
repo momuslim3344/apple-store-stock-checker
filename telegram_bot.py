@@ -228,7 +228,7 @@ class TelegramStockBot:
         
         # Preset intervals in minutes
         self.preset_intervals = {
-            '0.5 min': 30,
+            '0.02 min': 2,
             '1 min': 60,
             '2 min': 120,
             '5 min': 300,
