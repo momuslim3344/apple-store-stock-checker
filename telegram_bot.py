@@ -13,7 +13,7 @@ import re
 # ============================================
 
 # ✅ Environment variable से Token लें (सुरक्षित)
-BOT_TOKEN = os.environ.get('BOT_TOKEN')
+BOT_TOKEN = os.environ.get('8753779153:AAFDvwJIOOtgjtg4lYQ4DciHQ4rSC1eSzCA')
 if not BOT_TOKEN:
     raise ValueError("❌ BOT_TOKEN environment variable not set!")
 
@@ -23,7 +23,7 @@ AUTHORIZED_USERS = [uid.strip() for uid in AUTHORIZED_USERS_STR.split(',') if ui
 
 # 👑 Admin Users
 ADMIN_USERS = [
-    "543578081",  # Your User ID - ADMIN
+    "717832291",  # Your User ID - ADMIN
 ]
 
 # 🔓 Open/Closed Mode
