@@ -520,7 +520,7 @@ class TelegramStockBot:
         """Create time interval selection keyboard in minutes"""
         return {
             'keyboard': [
-                ['0.5 min', '1 min', '2 min'],
+                ['2 sec', '1 min', '2 min'],
                 ['5 min', '10 min', '15 min'],
                 ['30 min', '60 min'],
                 ['✏️ Custom Time', '🔙 Back to Menu']
